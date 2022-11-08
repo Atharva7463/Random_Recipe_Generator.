@@ -1,0 +1,133 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 30px 10px;
+    background-color: rgb(54, 54, 142);
+    color: #fff ;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.button-primary{
+    margin: 20px;
+    font-size: 14px;
+    border: none;
+    padding: 17px 33px;
+    font-weight: bold;
+    border-radius: 30px;
+    background-color: aquamarine;
+    cursor: pointer;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0), 0 8px 6px rgba(0, 0, 0, 0.1);
+
+}
+
+.button-primary:active{
+    transform: scale(0.98);
+}
+
+img{
+    max-width: 100%;
+}
+p {
+	margin-bottom: 5px;
+}
+
+h3 {
+	margin: 0;
+}
+
+h5 {
+	margin: 10px 0;
+}
+
+li {
+	margin-bottom: 0;
+}
+
+.meal {
+	margin: 20px 0;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    
+    width: 100%;
+    padding: 28px;
+
+}
+
+.coloums.one{
+    width: 135%;
+    margin-right: 33px;
+    padding: 10px;
+}
+
+.coloums.two{
+    font-size: 1.3rem;
+    word-spacing: 6px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+h4{
+   
+    font-size: 2rem;
+    padding: 33px;
+    color: rgb(255, 255, 255);
+    text-decoration: underline double;    
+}
+
+.instructions{
+
+    line-height: 32px;
+    font-weight: bold;
+    font-size: 19px;
+}
+
+p{
+    margin: 25px
+}
+
+footer{
+    color: #fff;
+    margin: 30px;
+    font-size: 17px;
+    text-align: center;
+}
+
+a
+{
+    text-decoration: none;
+    color: black;
+
+}
+
+i{
+    color: black;
+    font-size: 20px;
+    margin: 2px;
+    margin-top: 10px;
+}
+
+.name{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+a:hover{
+    color: white;
+    font-weight: bold;
+}
+
